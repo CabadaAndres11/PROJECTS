@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+  }
+  
+  .game-container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: 2px solid white;
+    overflow: hidden;
+  }
+  
+  .snake, .food {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .snake {
+    background-color: #27ae60; /* Color verde para la serpiente */
+  }
+  
+  .food {
+    background-color: #e74c3c; /* Color rojo para la comida */
+  }
+  
+  /* Agrega estilos para el marcador de puntuación */
+  .score-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .score-label {
+    font-size: 18px;
+    color: white;
+    margin-right: 10px;
+  }
+  
+  .score {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FF5733; /* Cambia el color a un tono naranja */
+  }
+  

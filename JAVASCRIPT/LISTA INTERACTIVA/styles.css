@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Color de fondo gris claro */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco para el contenedor */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333333; /* Texto gris oscuro */
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.05);
+    margin-bottom: 10px;
+  }
+  
+  .task-options {
+    display: flex;
+    gap: 10px;
+    align-items: center; /* Alinea los botones verticalmente con el texto */
+  }
+  
+  .completed {
+    background-color: #d4fadd; /* Color verde suave para tareas completadas */
+    text-decoration: line-through; /* Texto tachado para tareas completadas */
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button.completeBtn {
+    background-color: #28a745; /* Color verde para el botón "Completada" */
+  }
+  
+  button.noCompleteBtn {
+    background-color: #ffc107; /* Color naranja para el botón "No Completada" */
+  }
+  
+  button.deleteBtn {
+    background-color: #dc3545; /* Color rojo para el botón "Eliminar" */
+    margin-left: 5px;
+  }
+  
